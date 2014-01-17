@@ -10,67 +10,94 @@
 		<meta name="Language" content="Spanish">
 		<meta name="geography" content="Valencia, España">
 
+		<meta property='og:author' content='Rubén' />
+		<meta property="og:locale" content="es_ES">
+		<meta property="og:title" content="Cubess" /> 
+		<meta property="og:description" content="Representación física de un pensamiento mágico." />
+		<meta property="og:url" content="http://www.cubess.es/" />
+		<meta property='og:site_name' content='Cubess' />
+		<meta property="og:type" content="website">
+		<meta property="og:image" content="http://www.cubess.es/img/profile.png"/>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
 		<link rel="shortcut icon" href="img/favicon.png" type="image/png">
 
-        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/cssreset.css"><!--/ RESET /-->
+        <link rel="stylesheet" href="css/main.css"><!--/ CSS PRINCIPAL /-->
+        <link rel="stylesheet" href="css/gallery.css"><!--/ GALERIA /-->
+		<link rel="stylesheet" href="css/slider.prefixed.css"><!--/ SLIDER /-->
+		<link rel="stylesheet" href="css/mediaquery.css"><!--/ @MEDIA /-->
 
-        <link rel="stylesheet" href="css/cssreset.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/slider.css">
 
 		<link href='http://fonts.googleapis.com/css?family=Oswald:300,400,700' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-47169923-1']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
 		
-		<script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
-		<link href='http://fonts.googleapis.com/css?family=Economica:700,400italic' rel='stylesheet' type='text/css'>
-		<noscript>
-			<link rel="stylesheet" type="text/css" href="css/nojs.css" />
-		</noscript>
     </head>
 <!-- ======================================BODY==================================================== -->
 <body>
-	<header>
+	<header data-html="index">
 		<nav>
 			<a href="index.html" class="brand"></a>
 			<ul class="menu clearfix">
 				<a href="que.html"><li>¿Qué es cubess?<span>¿Qué es cubess?</span></li></a>
-				<a href="galeria.html"><li>Galeria<span>Galería</span></li></a>
+				<a href="galeria.html"><li>Galería<span>Galería</span></li></a>
 				<a href="como.html"><li>¿Cómo se hizo?<span>¿Cómo se hizo?</span></li></a>
 				<a href="poster.html"><li>Póster<span>Poster</span></li></a>
+				<a href="http://www.facebook.com/sharer.php?u=http://www.cubess.es" target="_blanck"><li class="icon-facebook social"><span class="icon-facebook"></span></li></a>
+				<a href="http://twitter.com/home?status=Cubess%20-%20Representaci%C3%B3n%20f%C3%ADsica%20de%20un%20pensamiento%20m%C3%A1gico.%20Rub%C3%A9n%20L%C3%B3pez.%20http://www.cubess.es%20@trecedonny%20%23cubess%20" target="_blanck"><li class="icon-twitter social"><span class="icon-twitter"></span></li></a>
 			</ul>
 		</nav>
 	</header>
-	<section class="lang"><a href="index.html">ES</a> - <a href="/en/index.html">EN</a></section>
-	
-	<div id="da-slider" class="da-slider clearfix">
-				<div class="da-slide">
-					<div class="da-img"><img src="img/2.jpg" alt="image01" /></div>
-				</div>
-				<div class="da-slide">
-					<div class="da-img"><img src="img/3.jpg" alt="image01" /></div>
-				</div>
-				<div class="da-slide">
-					<div class="da-img"><img src="img/1.jpg" alt="image01" /></div>
-				</div>
+	<section class="lang"><!-- <a href="index.html">ES</a> - <a href="/en/index.html">EN</a> --></section>
+<!--/ SLIDER /-->
+	<div class="gallery autoplay items-5">
+		<div id="item-1" class="control-operator"></div>
+		<div id="item-2" class="control-operator"></div>
+		<div id="item-3" class="control-operator"></div>
+		<div id="item-4" class="control-operator"></div>
+		<div id="item-5" class="control-operator"></div>
 
-				<nav class="da-arrows">
-					<span class="da-arrows-prev"></span>
-					<span class="da-arrows-next"></span>
-				</nav>
-			</div>
-	<footer>©2012 <a href="index.html">cubess</a> · All Rights Reserved · Created by <a href="http://www.rubn-d.com/" target="_blank">Rubn-d</a> · v1.2.4</footer>
 
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-		<script type="text/javascript" src="js/jquery.cslider.js"></script>
-		<script type="text/javascript">
-			$(function() {
-			
-				$('#da-slider').cslider({
-					autoplay	: false,
-					bgincrement	: 450
-				});
-			
-			});
-	</script>
+		<figure class="item image1">
+		</figure>
+
+		<figure class="item image2">
+		</figure>
+
+		<figure class="item image3">
+		</figure>
+
+		<figure class="item image4">
+		</figure>
+
+		<figure class="item image5">
+		</figure>
+
+
+		<div class="controls">
+			<a href="#item-1" class="control-button">•</a>
+			<a href="#item-2" class="control-button">•</a>
+			<a href="#item-3" class="control-button">•</a>
+			<a href="#item-4" class="control-button">•</a>
+			<a href="#item-5" class="control-button">•</a>
+		</div>
+	</div>
+<!--/ FOOTER /-->	
+<footer data-html="index">©2012 <a href="index.html">cubess</a> · All Rights Reserved · Created by <a href="http://www.rubn-d.com/" target="_blank">Rubén López</a> · v2.1</footer>
 </body>	
 </html>

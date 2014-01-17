@@ -5,10 +5,10 @@
 }
 .lb-album li{
 	float: left;
-	margin: 5px;
+	padding: 5px;
 	position: relative;
 	list-style: none;
-	background-color: red;
+	background-color: #fff;
 }
 .lb-album li > a,
 .lb-album li > a img{
@@ -61,7 +61,7 @@
 .lb-overlay > div{
 	position: relative;
 	color: #fff;
-	width: 250px;
+	width: 300px;
 	height: 80px;
 	margin: 40px auto 0px auto;
 	font-family: 'Oswald', sans-serif;
@@ -69,7 +69,7 @@
 }
 .lb-overlay div h3,
 .lb-overlay div p{
-	width: 200px;
+	width: 300px;
 }
 .lb-overlay div h3{
 	font-size: 30px;
@@ -142,8 +142,8 @@
 	text-indent: -9000px;
 	position: absolute;
 	top: -32px;
-	width: 24px;
-	height: 25px;
+	width: 20px;
+	height: 20px;
 	left: 50%;
 	opacity: 0.8;
 	filter: alpha(opacity=80); /* internet explorer */
@@ -167,7 +167,7 @@
 	height: auto;
 	bottom: 0px;
 	right: 0px;
-	padding: 80px 100px 150px 100px;
+	padding: 80px 10px 150px 10px;
 }
 .lb-overlay:target img,
 .lb-overlay:target a.lb-close,
