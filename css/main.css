@@ -111,6 +111,16 @@ nav{
     margin: 0 10px;
     line-height: 20px;
 }
+.menu h1{ 
+/* -- ESTO SIRVE PARA METER EL CONTENIDO DE CADA "LI" DEL MENU EN "H1" SIN ALTERAR EL DISEÑO ORIGINAL,
+ESTO AYUDA AL POSICIONAMIENTO EN BUSCADORES Y EMPATIZA CON LOS BUSCADORES  -- */
+	font-family: 'Oswald', sans-serif;
+	font-size: initial;
+	font-weight: 300;
+	margin: initial;
+	text-align: initial;
+	text-transform: initial;
+}
 .menu li.social{
 	padding-top: 20px;
 	width: 30px;
@@ -189,8 +199,11 @@ h1{
 	text-align: left;
 	text-transform: uppercase;
 }
-#poster img{
-	width: 50%;
+.poster{
+	width: 100%;
+}
+.poster img{
+	max-width: 50%;
 	padding: 5px;
 	float: left;
 

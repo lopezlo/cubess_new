@@ -9,6 +9,7 @@
 	position: relative;
 	list-style: none;
 	background-color: #fff;
+	width: 15%;
 }
 .lb-album li > a,
 .lb-album li > a img{
